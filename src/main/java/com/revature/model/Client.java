@@ -12,7 +12,7 @@ public class Client {
 	}
 	
 	public Client(int clientNumber, String firstName, String lastName, long phoneNumber){
-		this.clientNumber = accNumber;
+		this.clientNumber = clientNumber;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.phoneNumber = phoneNumber;
