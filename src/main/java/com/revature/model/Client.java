@@ -11,6 +11,12 @@ public class Client {
 		super();
 	}
 	
+	public Client(int clientNumber, String firstName, String lastName) {
+		this.clientNumber = clientNumber;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
 	public Client(int clientNumber, String firstName, String lastName, long phoneNumber){
 		this.clientNumber = clientNumber;
 		this.firstName = firstName;
