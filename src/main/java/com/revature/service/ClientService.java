@@ -23,7 +23,7 @@ public class ClientService {
 			Client client = clientRepository.getClientById(id);
 			return client;
 		} catch(NumberFormatException e) {
-			throw new BadParameterException("Pirate id must be an int. User provided " + stringId);
+			throw new BadParameterException("Client id must be an int. User provided " + stringId);
 		}
 	}
 }
