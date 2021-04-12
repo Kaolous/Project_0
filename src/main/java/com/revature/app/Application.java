@@ -18,6 +18,8 @@ public class Application {
 			String httpMethod = ctx.req.getMethod();
 			logger.info(httpMethod + " request to endpoint " + URI + "GET received");
 		});
+		
+		app.start(7000);
 
 	}
 
