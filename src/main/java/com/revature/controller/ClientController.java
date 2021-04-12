@@ -18,7 +18,7 @@ public class ClientController implements Controller {
 		
 	};
 	
-	private Handler deleteClient = ctx -> {
+	private Handler deleteClientById = ctx -> {
 		
 	};
 	
@@ -37,7 +37,7 @@ public class ClientController implements Controller {
 	
 	@Override
 	public void mapEndpoints(Javalin app) {
-		app.
+		
 	}
 
 }
