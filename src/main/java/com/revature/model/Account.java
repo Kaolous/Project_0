@@ -2,6 +2,7 @@ package com.revature.model;
 
 public class Account {
 	
+	private Client client;
 	private int accNumber;
 	private float accBalance;
 
@@ -9,8 +10,9 @@ public class Account {
 		super();
 	}
 	
-	public Account(Client client, float accBalance) {
-		this.accNumber = client.getClientNumber();
+	public Account(Client client, int accNumber, float accBalance) {
+		this.client = client;
+		this.accNumber = accNumber;
 		this.accBalance = accBalance;
 	}
 
